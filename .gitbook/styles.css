@@ -1,18 +1,32 @@
-/* 去掉所有表格的垂直边框，只保留下边框 */
+/* 强制移除所有表格边框，然后单独添加行线 */
 table {
-    border-collapse: collapse;
+    border-collapse: collapse !important;
+    border: none !important;
+    /* 确保表格本身无边框 */
 }
 
 table th,
 table td {
-    border: none;
-    border-bottom: 1px solid #ddd;
+    border: none !important;
+    /* 彻底移除所有单元格的边框 */
+    border-bottom: 1px solid #ddd !important;
+    /* 只添加下边框 */
     text-align: left;
     padding: 8px;
 }
 
-/* 表头加粗或颜色略深 */
+/* 表头下边框加粗 */
 table th {
-    border-bottom-width: 2px;
-    border-bottom-color: #aaa;
+    border-bottom-width: 2px !important;
+    border-bottom-color: #aaa !important;
+}
+
+/* 额外：确保表格内的所有伪元素或额外边框都被移除 */
+table tr {
+    border: none !important;
+}
+
+/* 如果表格使用了 border-collapse: separate，这行能确保内部间距为0 */
+table {
+    border-spacing: 0 !important;
 }
