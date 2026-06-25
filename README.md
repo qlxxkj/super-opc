@@ -21,14 +21,15 @@
 2. 覆盖2026年四大核心AI编程工具，构建完整兵器库
 深度实操四大代表性工具：
 
-Claude Code（终端工程Agent，SWE-bench 88.6%行业第一）
+    - Claude Code（终端工程Agent，SWE-bench 88.6%行业第一）
 
-OpenAI Codex（云沙箱自主Agent，委派与审阅模式，含在ChatGPT Plus中）
+    - OpenAI Codex（云沙箱自主Agent，委派与审阅模式，含在ChatGPT Plus中）
 
-Hermes Agent（开源记忆型Agent，跨会话持久记忆，自我进化）
+    - Hermes Agent（开源记忆型Agent，跨会话持久记忆，自我进化）
 
-Cursor（IDE内嵌Harness，财富500强超70%企业使用）
-四款工具覆盖终端/云端/IDE全场景，无论你是什么开发习惯，都能找到最佳搭档。
+    - Cursor（IDE内嵌Harness，财富500强超70%企业使用）
+
+    四款工具覆盖终端/云端/IDE全场景，无论你是什么开发习惯，都能找到最佳搭档。
 
 3. 标准化开发工作流，告别"写完就崩"
 引入 Spec-Driven Development（OpenSpec的propose/explore/apply/archive流程）和 Skill化开发，让AI输出稳定、可复用、可预测，从根源解决"越写越偏"和"项目崩塌"。
